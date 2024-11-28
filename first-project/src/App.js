@@ -7,6 +7,7 @@ import ApiFetchSearch from './Components/ApiFetchSearch';
 import DynamicList from './Components/DynamicList';
 import DynamicList1 from './Components/DynamicList1';
 import SignUp from './Components/SignUp';
+import ArraySearch from './Components/ArraySearch';
 // import { useContext } from 'react';
 // import { ThemeContext } from './Components/ThemeContext';
 
@@ -29,6 +30,7 @@ function App() {
         <Route path='signup' element={<SignUp/>}/>
         <Route path='/dynamicList' element={<DynamicList/>}/>
         <Route path='/dynamicList1' element={<DynamicList1/>}/>
+        <Route path='/arraysearch' element={<ArraySearch/>}/>
       </Routes>
     </div>
   );
